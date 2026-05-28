@@ -58,8 +58,6 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }}
           className="lg:col-span-5 relative"
         >
-
-        >
           <div className="absolute -inset-4 bg-gradient-to-br from-gold/20 via-transparent to-cream rounded-[2rem] blur-2xl" />
           <div className="relative rounded-[1.5rem] overflow-hidden border border-gold/30 shadow-[var(--shadow-soft)]">
             <img
