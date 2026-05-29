@@ -19,7 +19,7 @@ export function Hero() {
         <div className="lg:col-span-7">
           <motion.div {...fade(0)} className="flex items-center gap-3 mb-6">
             <span className="gold-rule" />
-            <span className="eyebrow">Biomédica Esteta · Campo Grande, MS</span>
+            <span className="eyebrow">Biomédica Esteta · Sete Quedas, MS</span>
           </motion.div>
 
           <motion.h1
