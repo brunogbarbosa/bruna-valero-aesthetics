@@ -26,7 +26,7 @@ export function Footer() {
         <div>
           <p className="eyebrow text-gold-light mb-4">Atendimento</p>
           <p className="text-sm text-background/80 leading-relaxed">
-            Campo Grande, MS<br />
+            Sete Quedas, MS<br />
             CRBM 48986
           </p>
         </div>
