@@ -5,8 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-display: "Playfair Display", ui-serif, Georgia, serif;
-  --font-sans: "Nunito Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -92,7 +92,7 @@
   .eyebrow {
     font-family: var(--font-sans);
     font-size: 0.72rem;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--color-gold);
@@ -115,20 +115,70 @@
   .btn-outline-gold {
     display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
     padding: 0.8rem 1.55rem; border-radius: 9999px;
-    border: 1px solid var(--color-gold); color: var(--color-gold);
-    font-weight: 600; letter-spacing: 0.02em;
+    border: 1px solid color-mix(in oklab, var(--color-gold) 65%, white 35%); color: var(--color-gold);
+    font-weight: 500; letter-spacing: 0.02em;
     transition: all .25s ease; background: transparent;
   }
   .btn-outline-gold:hover { background: var(--color-gold); color: white; }
+  .panel-luxury {
+    position: relative;
+    background: color-mix(in oklab, white 88%, var(--color-cream) 12%);
+    border: 1px solid color-mix(in oklab, var(--color-gold) 18%, white 82%);
+    border-radius: 0.75rem;
+    box-shadow: 0 18px 50px -30px oklch(0.18 0.01 60 / 0.18);
+    overflow: hidden;
+  }
+  .metric-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 9999px;
+    border: 1px solid color-mix(in oklab, var(--color-gold) 18%, white 82%);
+    background: color-mix(in oklab, var(--color-cream) 75%, white 25%);
+    color: color-mix(in oklab, var(--color-ink) 80%, var(--color-gold) 20%);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
   .card-protocol {
-    position: relative; background: white; border: 1px solid var(--color-border);
-    border-left: 3px solid var(--color-gold);
-    padding: 1.75rem; border-radius: 0.5rem;
-    transition: all .3s ease;
+    position: relative;
+    min-height: 15rem;
+    background: linear-gradient(180deg, color-mix(in oklab, white 92%, var(--color-cream) 8%), color-mix(in oklab, var(--color-cream) 75%, white 25%));
+    border: 1px solid color-mix(in oklab, var(--color-gold) 18%, white 82%);
+    padding: 1.6rem;
+    border-radius: 0.75rem;
+    transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+    overflow: hidden;
+  }
+  .card-protocol::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, color-mix(in oklab, var(--color-gold) 7%, transparent), transparent 42%);
+    pointer-events: none;
   }
   .card-protocol:hover {
-    background: var(--color-cream);
     transform: translateY(-4px);
-    box-shadow: var(--shadow-soft);
+    border-color: color-mix(in oklab, var(--color-gold) 34%, white 66%);
+    box-shadow: 0 24px 60px -32px oklch(0.68 0.09 78 / 0.38);
+  }
+  .result-card {
+    background: color-mix(in oklab, white 92%, var(--color-cream) 8%);
+    border: 1px solid color-mix(in oklab, var(--color-gold) 18%, white 82%);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 18px 42px -30px oklch(0.18 0.01 60 / 0.18);
+  }
+  .result-media {
+    width: 100%;
+    background: linear-gradient(180deg, color-mix(in oklab, var(--color-cream) 75%, white 25%), white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
   }
 }
