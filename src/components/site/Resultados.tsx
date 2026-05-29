@@ -14,11 +14,11 @@ const results = [
   { src: maos2, label: "Rejuvenescimento de Mãos", aspect: "aspect-[4/5]", span: "lg:col-span-2" },
   { src: labios1, label: "Harmonização Labial", aspect: "aspect-[9/16]", span: "lg:col-span-2 lg:row-span-2" },
   { src: labios2, label: "Harmonização Labial", aspect: "aspect-[9/16]", span: "lg:col-span-3" },
-  { src: brinco1, label: "Lifting Facial", aspect: "aspect-[9/16]", span: "lg:col-span-3" },
-  { src: brinco2, label: "Lifting Facial", aspect: "aspect-[16/9]", span: "lg:col-span-2" },
-  { src: acne, label: "Tratamento de Acne", aspect: "aspect-square", span: "lg:col-span-2" },
-  { src: pele1, label: "Bioestimulador", aspect: "aspect-[9/16]", span: "lg:col-span-2" },
-  { src: pele2, label: "Bioestimulador", aspect: "aspect-[16/9]", span: "lg:col-span-4" },
+  { src: brinco1, label: "", aspect: "aspect-[9/16]", span: "lg:col-span-3" },
+  { src: brinco2, label: "", aspect: "aspect-[16/9]", span: "lg:col-span-2" },
+  { src: acne, label: "Lavieen", aspect: "aspect-square", span: "lg:col-span-2" },
+  { src: pele1, label: "", aspect: "aspect-[9/16]", span: "lg:col-span-2" },
+  { src: pele2, label: "", aspect: "aspect-[16/9]", span: "lg:col-span-4" },
 ] as const;
 
 const testimonials = [
