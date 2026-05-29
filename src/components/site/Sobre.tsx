@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import retrato from "@/assets/dra-bruna-laptop.jpeg";
+import retrato from "@/assets/bruna-blazer.jpeg";
 
 export function Sobre() {
   return (
