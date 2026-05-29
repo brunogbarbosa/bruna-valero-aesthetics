@@ -14,9 +14,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Dra. Bruna Valero — Biomédica Esteta | Campo Grande, MS" },
-      { name: "description", content: "Estética com técnica, cuidado e naturalidade. Protocolos personalizados em Campo Grande, MS. CRBM 48986." },
+      { name: "description", content: "Estética com técnica, cuidado e naturalidade. Protocolos personalizados em Sete Quedas, MS. CRBM 48986." },
       { property: "og:title", content: "Dra. Bruna Valero — Biomédica Esteta" },
-      { property: "og:description", content: "Estética com técnica, cuidado e naturalidade. Campo Grande, MS." },
+      { property: "og:description", content: "Estética com técnica, cuidado e naturalidade. Sete Quedas, MS." },
       { property: "og:image", content: "/og-image.jpg" },
     ],
   }),
