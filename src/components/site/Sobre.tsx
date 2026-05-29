@@ -38,7 +38,7 @@ export function Sobre() {
               naturais que respeitam a essência de cada paciente.
             </p>
             <p>
-              Atendimento clínico em Campo Grande, MS, com técnica refinada e acolhimento em
+              Atendimento clínico em Sete Quedas, MS, com técnica refinada e acolhimento em
               cada detalhe.
             </p>
           </div>
