@@ -1,9 +1,9 @@
-import r1 from "@/assets/resultado-enzimas.jpeg";
-import r2 from "@/assets/resultado-labios.jpeg";
-import r3 from "@/assets/resultado-pele.jpeg";
-import r4 from "@/assets/resultado-nariz.jpeg";
-import r5 from "@/assets/resultado-papada.jpeg";
-import r6 from "@/assets/dra-bruna-ampola.jpeg";
+import r1 from "@/assets/bruna-ampola.jpeg";
+import r2 from "@/assets/bruna-laptop.jpeg";
+import r3 from "@/assets/bruna-retrato.jpeg";
+import r4 from "@/assets/bruna-closeup.jpeg";
+import r5 from "@/assets/bruna-blazer.jpeg";
+import r6 from "@/assets/resultado-pele.jpeg";
 
 const grid = [r1, r2, r3, r4, r5, r6];
 

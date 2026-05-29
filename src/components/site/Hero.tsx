@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroPhoto from "@/assets/dra-bruna-ampola.jpeg";
+import heroPhoto from "@/assets/bruna-closeup.jpeg";
 
 const fade = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
