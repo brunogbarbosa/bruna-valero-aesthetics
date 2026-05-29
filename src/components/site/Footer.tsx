@@ -34,7 +34,7 @@ export function Footer() {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10 mt-12 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs text-background/60">
         <p>© 2025 Dra. Bruna Valero. Todos os direitos reservados.</p>
-        <p>Biomédica Esteta · Campo Grande, MS</p>
+        <p>Biomédica Esteta · Sete Quedas, MS</p>
       </div>
     </footer>
   );
