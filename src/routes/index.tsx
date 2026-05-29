@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Estética com técnica, cuidado e naturalidade. Protocolos personalizados em Sete Quedas, MS. CRBM 48986." },
       { property: "og:title", content: "Dra. Bruna Valero — Biomédica Esteta" },
       { property: "og:description", content: "Estética com técnica, cuidado e naturalidade. Sete Quedas, MS." },
-      { property: "og:image", content: "/og-image.png" },
+      { property: "og:image", content: "/og-image.PNG" },
     ],
   }),
   component: Index,
