@@ -48,7 +48,7 @@ export function Navbar() {
         </nav>
 
         <a
-          href="https://wa.me/5567999166721"
+          href="https://wa.me/5567998166721"
           target="_blank"
           rel="noreferrer"
           className="btn-gold hidden md:inline-flex text-sm py-2.5 px-5"
@@ -78,7 +78,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://wa.me/5567999166721"
+              href="https://wa.me/5567998166721"
               target="_blank"
               rel="noreferrer"
               className="btn-gold text-sm self-start"

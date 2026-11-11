@@ -14,7 +14,7 @@ export function CtaBanner() {
           Agende sua avaliação e descubra o protocolo ideal para você.
         </p>
         <div className="mt-10">
-          <a href="https://wa.me/5567999166721" target="_blank" rel="noreferrer" className="btn-gold text-base px-8 py-4">
+          <a href="https://wa.me/5567998166721" target="_blank" rel="noreferrer" className="btn-gold text-base px-8 py-4">
             Agendar pelo WhatsApp
           </a>
         </div>

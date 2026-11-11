@@ -43,7 +43,7 @@ export function Hero() {
           </motion.div>
 
           <motion.div {...fade(0.4)} className="mt-10 flex flex-col sm:flex-row gap-3">
-            <a href="https://wa.me/5567999166721" target="_blank" rel="noreferrer" className="btn-gold">
+            <a href="https://wa.me/5567998166721" target="_blank" rel="noreferrer" className="btn-gold">
               Agendar pelo WhatsApp
             </a>
             <a href="#protocolos" className="btn-outline-gold">

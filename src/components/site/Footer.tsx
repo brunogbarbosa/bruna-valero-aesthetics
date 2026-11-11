@@ -18,7 +18,7 @@ export function Footer() {
           <p className="eyebrow text-gold-light mb-4">Conecte-se</p>
           <ul className="space-y-2 text-sm text-background/80">
             <li><a className="hover:text-gold" href="https://instagram.com/drabrunavalero_1" target="_blank" rel="noreferrer">Instagram · @drabrunavalero_1</a></li>
-            <li><a className="hover:text-gold" href="https://wa.me/5567999166721" target="_blank" rel="noreferrer">WhatsApp · (67) 99916-6721</a></li>
+            <li><a className="hover:text-gold" href="https://wa.me/5567998166721" target="_blank" rel="noreferrer">WhatsApp · (67) 99816-6721</a></li>
             <li><a className="hover:text-gold" href="https://facebook.com/brunavalero9" target="_blank" rel="noreferrer">Facebook · brunavalero9</a></li>
           </ul>
         </div>
